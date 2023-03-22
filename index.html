@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+    }
+    @font-face {
+      font-family: "San Francisco";
+      src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+    }
+    .image_container {
+      display: flex;
+      flex-direction: row;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .image {
+      width: 277px;
+      height: 350px;
+      margin-left: 120px;
+    }
+    .footer_text {
+      width: "100%";
+      margin-left: 10px;
+      font-family: "San Francisco";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 22px;
+      letter-spacing: -0.408px;
+      font-feature-settings: "case" on;
+      color: #ffffff;
+    }
+    @media screen and (max-width: 480px) {
+      .image_container {
+        flex-direction: column;
+      }
+      .image {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin: auto;
+      }
+      .footer_text {
+        padding-top: 20px;
+      }
+    }
+  </style>
+  <body>
+    <div
+      style="
+        width: '100%';
+        height: '100%';
+        padding-left: 43px;
+        padding-right: 43px;
+        padding-top: 44px;
+        padding-bottom: 44px;
+        background-color: #000000;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 80px;
+      "
+    >
+      <!-- Header  -->
+      <div style="width: '50%'; height: '50%'">
+        <img
+          src="./assets/Union.png"
+          alt="img"
+          style="width: max-content; height: max-content"
+        />
+      </div>
+      <div>
+        <h1
+          style="
+            height: '40%';
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 40px;
+            align-items: center;
+            letter-spacing: -0.03em;
+            color: #ffffff;
+            margin-top: 57px;
+          "
+        >
+          Welcome to event
+        </h1>
+        <h1
+          style="
+            height: '40%';
+            font-family: 'San Francisco';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 22px;
+            letter-spacing: -0.408px;
+            font-feature-settings: 'case' on;
+            color: rgba(235, 235, 245, 0.6);
+          "
+        >
+          Hello {fullname},
+          <p>
+            I want to personally thank you for signing up to
+            <span style="color: #ffffff">event</span> and so excited to have you
+            onboard.
+          </p>
+          <p style="margin-top: 22px">
+            event helps you create, track memorable and meaningful events with
+            people in your life.
+          </p>
+
+          <p>
+            Collaborate with others to plan events or reminders and invite
+            everyone involved. Use a to-do list to stay organised and make
+            progress towards creating memorable and meaningful experiences.
+          </p>
+        </h1>
+      </div>
+
+      <!-- Header  -->
+      <!-- Image Body -->
+      <div>
+        <!-- 1 -->
+        <div class="image_container">
+          <div
+            class="image"
+            style="width: 277px; height: 350px; margin-left: 20px"
+          >
+            <img
+              src="./assets/Group1.png"
+              alt=""
+              style="width: 277px; height: 350px"
+            />
+          </div>
+          <div
+            class="text"
+            style="
+              width: 272px;
+              height: 244px;
+              margin-top: 53px;
+              margin-bottom: 53px;
+              margin-left: 50px;
+            "
+          >
+            <img src="./assets//icon1.png" alt="" />
+            <h1
+              style="
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 41px;
+                letter-spacing: 0.374px;
+                color: #ffffff;
+              "
+            >
+              Create and track multiple events and reminders with people.
+            </h1>
+          </div>
+        </div>
+        <!-- 1 -->
+        <!-- 2 -->
+        <div class="image_container">
+          <div
+            style="
+              width: 272px;
+              height: 244px;
+              margin-top: 53px;
+              margin-bottom: 53px;
+              margin-left: 30px;
+            "
+          >
+            <img src="./assets//icon2.png" alt="" />
+            <h1
+              style="
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 41px;
+                letter-spacing: 0.374px;
+                color: #ffffff;
+              "
+            >
+              Add, track & complete todos in an events together with everyone.
+            </h1>
+          </div>
+          <div class="image">
+            <img
+              src="./assets/todoitems.png"
+              alt=""
+              style="width: 277px; height: 350px"
+            />
+          </div>
+        </div>
+        <!-- 2 -->
+        <!-- 3 -->
+        <div class="image_container">
+          <div style="width: 277px; height: 350px; margin-left: 20px">
+            <img
+              src="./assets/customimage.png"
+              alt=""
+              style="width: 277px; height: 350px"
+            />
+          </div>
+          <div
+            style="
+              width: 272px;
+              height: 244px;
+              margin-top: 53px;
+              margin-bottom: 53px;
+              margin-left: 50px;
+            "
+          >
+            <img src="./assets//icon3.png" alt="" />
+            <h1
+              style="
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 41px;
+                letter-spacing: 0.374px;
+                color: #ffffff;
+              "
+            >
+              Add custom image as background to add personality.
+            </h1>
+          </div>
+        </div>
+        <!-- 3 -->
+        <!-- 4 -->
+        <div class="image_container">
+          <div
+            style="
+              width: 272px;
+              height: 244px;
+              margin-top: 53px;
+              margin-bottom: 53px;
+              margin-left: 30px;
+            "
+          >
+            <img src="./assets//icon4.png" alt="" />
+
+            <div
+              style="
+                justify-content: center;
+                padding: 2px 8px;
+                width: 95px;
+                background: rgba(255, 159, 10, 0.15);
+                border-radius: 8px;
+                margin-top: 20px;
+              "
+            >
+              <h1
+                style="
+                  font-family: 'SF Pro Text';
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 12px;
+                  line-height: 16px;
+                  color: #ff9f0a;
+                "
+              >
+                Coming Soon
+              </h1>
+            </div>
+            <h1
+              style="
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 41px;
+                letter-spacing: 0.374px;
+                color: #ffffff;
+              "
+            >
+              Invite people to your event with access control.
+            </h1>
+          </div>
+          <div class="image">
+            <img
+              src="./assets/invitepeople.png"
+              alt=""
+              style="width: 277px; height: 350px"
+            />
+          </div>
+        </div>
+        <!-- 4 -->
+        <!-- 5 -->
+        <div class="image_container">
+          <div style="width: 277px; height: 350px; margin-left: 20px">
+            <img
+              src="./assets/settings.png"
+              alt=""
+              style="width: 277px; height: 350px"
+            />
+          </div>
+          <div
+            style="
+              width: 272px;
+              height: 244px;
+              margin-top: 53px;
+              margin-bottom: 53px;
+              margin-left: 50px;
+            "
+          >
+            <img src="./assets//icon5.png" alt="" />
+            <div
+              style="
+                justify-content: center;
+                padding: 2px 8px;
+                width: 95px;
+                background: rgba(255, 159, 10, 0.15);
+                border-radius: 8px;
+                margin-top: 20px;
+              "
+            >
+              <h1
+                style="
+                  font-family: 'SF Pro Text';
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 12px;
+                  line-height: 16px;
+                  color: #ff9f0a;
+                "
+              >
+                Coming Soon
+              </h1>
+            </div>
+            <h1
+              style="
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 41px;
+                letter-spacing: 0.374px;
+                color: #ffffff;
+              "
+            >
+              And tons of customisations
+            </h1>
+          </div>
+        </div>
+        <!-- 5 -->
+      </div>
+      <!-- Image Body -->
+      <div
+        style="
+          margin: auto;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          padding-left: 10px;
+          padding-right: 10px;
+          border-color: rgba(255, 255, 255, 0.1);
+          border-style: solid;
+          border-width: 2px 0px;
+        "
+      >
+        <h1
+          style="
+            font-family: 'San Francisco';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 22px;
+            letter-spacing: -0.408px;
+            font-feature-settings: 'case' on;
+            color: #ffffff;
+          "
+        >
+          Thanks for now
+          <p>
+            You can reply to this email at any time to message me directly, or
+            feel free to get in touch with me on
+            <a href="https://twitter.com/leoadukwu"><u>Twitter.</u></a>
+          </p>
+          Leonard
+        </h1>
+      </div>
+      <!-- footer -->
+      <footer>
+        <h1
+          style="
+            margin-left: 10px;
+            width: '100%';
+            height: 22px;
+            font-family: 'San Francisco';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 22px;
+            letter-spacing: -0.408px;
+            font-feature-settings: 'case' on;
+            color: #ffffff;
+          "
+        >
+          You can also follow
+          <span style="color: rgb(67, 128, 221)">event</span> for updates and
+          features request using the below links
+        </h1>
+        <h1 class="footer_text">
+          <p>Twitter</p>
+
+          <p>Linkedin</p>
+
+          <p>email us</p>
+        </h1>
+        <h1
+          style="
+            width: '100%';
+            font-family: 'San Francisco';
+            margin-left: 10px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            letter-spacing: -0.408px;
+            font-feature-settings: 'case' on;
+            color: rgba(235, 235, 245, 0.6);
+          "
+        >
+          You received this email because you just created an account on the
+          event app.
+        </h1>
+      </footer>
+      <!-- footer -->
+    </div>
+  </body>
+</html>

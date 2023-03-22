@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitation to join an event</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+    }
+    @font-face {
+      font-family: "San Francisco";
+      src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+    }
+  </style>
+  <body>
+    <div
+      style="
+        width: '100%';
+        height: '100%';
+        padding-left: 43px;
+        padding-right: 43px;
+        padding-top: 44px;
+        padding-bottom: 44px;
+        background-color: #000000;
+        margin: auto;
+        border-radius: 80px;
+      "
+    >
+      <!-- Header  -->
+      <div style="width: '50%'; height: '50%'">
+        <img
+          src="./assets/Union.png"
+          alt="img"
+          style="width: max-content; height: max-content"
+        />
+      </div>
+      <div>
+        <h1
+          style="
+            width: '100%';
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 40px;
+            align-items: center;
+            letter-spacing: -0.03em;
+            color: #ffffff;
+            margin-top: 57px;
+          "
+        >
+          Invitation to {event-name}
+        </h1>
+        <h1
+          style="
+            width: '100%';
+
+            font-family: 'San Francisco';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 22px;
+            letter-spacing: -0.408px;
+            font-feature-settings: 'case' on;
+            color: rgba(235, 235, 245, 0.6);
+          "
+        >
+          Hello there,
+          <p>
+            {Fullname} is inviting to
+            <span style="color: #ffffff">{event-name}</span> which will take
+            place on Saturday March 11 2023.
+          </p>
+          <p>
+            Click here to login and accept in the event app or download from the
+            Appstore or Google play store and register with your invited email
+            to accept or decline the invitation
+          </p>
+        </h1>
+      </div>
+      <!-- Header  -->
+    </div>
+  </body>
+</html>
